@@ -1,0 +1,7 @@
+{
+  "name": "example-native-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Charlie Jackson <charlie@charliejackson.com>",
+  "license": "MIT"
+}
