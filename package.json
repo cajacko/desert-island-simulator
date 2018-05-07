@@ -5,6 +5,7 @@
   "author": "Charlie Jackson <charlie@charliejackson.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node_modules/project-templates/src/index.js web start"
+    "start": "node_modules/project-templates/src/index.js web start",
+    "deploy": "node_modules/project-templates/src/index.js web deploy"
   }
 }
