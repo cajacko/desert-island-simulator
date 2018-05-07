@@ -1,1 +1,1 @@
-export { default } from "./Start.render";
+export { default } from "./Start.container";

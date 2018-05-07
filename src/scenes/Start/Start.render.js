@@ -1,9 +1,9 @@
 import React from "react";
 import ButtonsText from "@cajacko/lib/src/components/Buttons/Text";
 
-const Start = () => (
+const Start = ({ start }) => (
   <div>
-    <ButtonsText text="Hi" />
+    <ButtonsText action={start} text="Start" />
   </div>
 );
 
