@@ -6,7 +6,5 @@
   "license": "MIT",
   "scripts": {
     "start": "node_modules/project-templates/src/index.js web start"
-  },
-  "devDependencies": {},
-  "dependencies": {}
+  }
 }
