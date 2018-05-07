@@ -6,6 +6,9 @@
   "license": "MIT",
   "scripts": {
     "start": "node_modules/project-templates/src/index.js web start",
-    "deploy": "node_modules/project-templates/src/index.js web deploy"
+    "test": "node_modules/project-templates/src/index.js web test",
+    "deploy": "node_modules/project-templates/src/index.js web deploy",
+    "get-firebase-token":
+      "node_modules/project-templates/src/index.js firebase get-token"
   }
 }
