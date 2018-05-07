@@ -5,6 +5,12 @@
   "author": "Charlie Jackson <charlie@charliejackson.com>",
   "license": "MIT",
   "scripts": {
-    "start": "project native start"
+    "start": "node_modules/project-templates/src/index.js web start"
+  },
+  "devDependencies": {
+    "react": "^16.3.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
   }
 }
