@@ -12,6 +12,7 @@
     "get-firebase-token": "project firebase get-token"
   },
   "dependencies": {
+    "@cajacko/lib": "*",
     "@cajacko/project-templates": "*"
   }
 }
