@@ -13,6 +13,6 @@
       "node_modules/cj-project-templates/src/index.js firebase get-token"
   },
   "dependencies": {
-    "cj-project-templates": "^0.2.0"
+    "cj-project-templates": "*"
   }
 }
