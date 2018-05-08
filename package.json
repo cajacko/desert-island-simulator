@@ -5,11 +5,12 @@
   "author": "Charlie Jackson <charlie@charliejackson.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node_modules/project-templates/src/index.js web start",
-    "init": "node_modules/project-templates/src/index.js web init",
-    "test": "node_modules/project-templates/src/index.js web test",
-    "deploy": "node_modules/project-templates/src/index.js web deploy",
-    "get-firebase-token": "node_modules/project-templates/src/index.js firebase get-token"
+    "start": "node_modules/cj-project-templates/src/index.js web start",
+    "init": "node_modules/cj-project-templates/src/index.js web init",
+    "test": "node_modules/cj-project-templates/src/index.js web test",
+    "deploy": "node_modules/cj-project-templates/src/index.js web deploy",
+    "get-firebase-token":
+      "node_modules/cj-project-templates/src/index.js firebase get-token"
   },
   "dependencies": {
     "cj-project-templates": "^0.2.0"
