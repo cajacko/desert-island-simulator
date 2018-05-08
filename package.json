@@ -9,7 +9,9 @@
     "init": "node_modules/project-templates/src/index.js web init",
     "test": "node_modules/project-templates/src/index.js web test",
     "deploy": "node_modules/project-templates/src/index.js web deploy",
-    "get-firebase-token":
-      "node_modules/project-templates/src/index.js firebase get-token"
+    "get-firebase-token": "node_modules/project-templates/src/index.js firebase get-token"
+  },
+  "dependencies": {
+    "cj-project-templates": "^0.2.0"
   }
 }
