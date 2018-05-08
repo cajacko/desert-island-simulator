@@ -2,6 +2,17 @@
 # yarn lockfile v1
 
 
+"@cajacko/project-templates@*":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@cajacko/project-templates/-/project-templates-0.2.3.tgz#9798e9f667cd0922176114d087191c8981f6e1d3"
+  dependencies:
+    commander "^2.15.1"
+    dotenv "^5.0.1"
+    firebase-tools "^3.18.4"
+    fs-extra "^6.0.0"
+    react-dev-utils "^5.0.1"
+    symlink-dir "^1.1.2"
+
 "@google-cloud/common@^0.16.1":
   version "0.16.2"
   resolved "https://registry.yarnpkg.com/@google-cloud/common/-/common-0.16.2.tgz#029b3c7c4a425f1374045ba8f6a878bd50e4761c"
@@ -457,17 +468,6 @@ chardet@^0.4.0:
 chownr@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
-
-cj-project-templates@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/cj-project-templates/-/cj-project-templates-0.2.0.tgz#696216b5ce663a6494a16e3a5eaba82fbb1cda87"
-  dependencies:
-    commander "^2.15.1"
-    dotenv "^5.0.1"
-    firebase-tools "^3.18.4"
-    fs-extra "^6.0.0"
-    react-dev-utils "^5.0.1"
-    symlink-dir "^1.1.2"
 
 cjson@^0.3.1:
   version "0.3.3"
