@@ -1,4 +1,4 @@
-export default (state = false, { type }) => {
+const inProgress = (state = false, { type }) => {
   switch (type) {
     case "START":
       return true;
@@ -10,3 +10,5 @@ export default (state = false, { type }) => {
       return state;
   }
 };
+
+export default inProgress;
