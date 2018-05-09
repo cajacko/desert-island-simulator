@@ -12,7 +12,7 @@ const ScenesStart = ({ start, inProgress, location }) =>
     />
   ) : (
     <div>
-      <ButtonsText action={start} text="Start" />
+      <ButtonsText action={start} text="Start 2" />
     </div>
   );
 
