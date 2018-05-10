@@ -5,10 +5,17 @@
   "author": "Charlie Jackson <charlie@charliejackson.com>",
   "license": "MIT",
   "scripts": {
-    "start": "project web start",
-    "init": "project web init",
-    "test": "project web test",
-    "deploy": "project web deploy",
+    "start:native": "project native start",
+    "start:web": "project web start",
+    "run:ios": "project native run --ios",
+    "run:android": "project native run --android",
+    "init": "project init --web --native",
+    "test": "yarn test:web && yarn test:native",
+    "test:web": "project web test",
+    "test:native": "project native test",
+    "deploy": "yarn deploy:web && yarn deploy:native",
+    "deploy:web": "project web deploy",
+    "deploy:native": "project native deploy",
     "get-firebase-token": "project firebase get-token"
   },
   "dependencies": {
