@@ -1,0 +1,10 @@
+{
+  "web": {
+    "reducers": "src/store/reducers",
+    "routes": "src/config/routes"
+  },
+  "native": {
+    "reducers": "src/store/reducers",
+    "routes": "src/config/routes"
+  }
+}
