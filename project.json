@@ -5,6 +5,6 @@
   },
   "native": {
     "reducers": "src/store/reducers",
-    "routes": "src/config/routes.native"
+    "routes": "src/config/routes"
   }
 }
