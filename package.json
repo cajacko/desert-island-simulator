@@ -21,5 +21,8 @@
   "dependencies": {
     "@cajacko/lib": "*",
     "@cajacko/project-templates": "*"
+  },
+  "peerDependencies": {
+    "react": "*"
   }
 }
