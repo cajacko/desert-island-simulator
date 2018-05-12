@@ -7,9 +7,11 @@
   "scripts": {
     "start:native": "project native start",
     "start:web": "project web start",
+    "dev:init":
+      "yarn link @cajacko/project-templates && yarn link @cajacko/lib",
     "run:ios": "project native run --ios",
     "run:android": "project native run --android",
-    "init": "project init --web --native",
+    "init": "project init",
     "test": "yarn test:web && yarn test:native",
     "test:web": "project web test",
     "test:native": "project native test",
@@ -20,9 +22,7 @@
   },
   "dependencies": {
     "@cajacko/lib": "*",
-    "@cajacko/project-templates": "*"
-  },
-  "peerDependencies": {
-    "react": "*"
+    "@cajacko/project-templates": "*",
+    "react": "16.3.0-alpha.1"
   }
 }

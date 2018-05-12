@@ -3,14 +3,14 @@
 
 
 "@cajacko/lib@*":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@cajacko/lib/-/lib-1.0.6.tgz#454745f38ddd1713e27b823c484de4f28bf5b384"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@cajacko/lib/-/lib-1.0.7.tgz#f6d32efb7e1d8872d54dc45ce8d14d241645a6f3"
   dependencies:
     styled-components "^3.2.6"
 
 "@cajacko/project-templates@*":
-  version "0.2.18"
-  resolved "https://registry.yarnpkg.com/@cajacko/project-templates/-/project-templates-0.2.18.tgz#5f75e763c54a4eb2989642c48fdd64b7eca0d486"
+  version "0.2.20"
+  resolved "https://registry.yarnpkg.com/@cajacko/project-templates/-/project-templates-0.2.20.tgz#947043945cea8111e838b5d32bdcfaab84eaa5d7"
   dependencies:
     commander "^2.15.1"
     dotenv "^5.0.1"
@@ -104,12 +104,12 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "10.0.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.0.6.tgz#c0bce8e539bf34c1b850c13ff46bead2fecc2e58"
+  version "6.0.110"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.110.tgz#6bbfc1c14d671348e3db4f89f3b487785e684684"
 
-"@types/node@^9.3.0":
-  version "9.6.14"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.14.tgz#79b5167f822d5fb0fb2b5c92ca150391ae0f2542"
+"@types/node@^10.0.8":
+  version "10.0.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.0.8.tgz#37b4d91d4e958e4c2ba0be2b86e7ed4ff19b0858"
 
 JSONStream@^1.2.1:
   version "1.3.2"
@@ -576,8 +576,8 @@ colors@1.1.2:
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
 
 colors@^1.1.2:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/colors/-/colors-1.2.4.tgz#e0cb41d3e4b20806b3bfc27f4559f01b94bc2f7c"
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/colors/-/colors-1.2.5.tgz#89c7ad9a374bc030df8013241f68136ed8835afc"
 
 combined-stream@1.0.6, combined-stream@~1.0.5:
   version "1.0.6"
@@ -2727,9 +2727,9 @@ react-is@^16.3.1:
   version "16.3.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.3.2.tgz#f4d3d0e2f5fbb6ac46450641eb2e25bf05d36b22"
 
-react@^16.3.2:
-  version "16.3.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.3.2.tgz#fdc8420398533a1e58872f59091b272ce2f91ea9"
+react@16.3.0-alpha.1:
+  version "16.3.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.3.0-alpha.1.tgz#de20f646e31e8b3c004e6bcbd3c54d51b48e1120"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -3258,11 +3258,11 @@ supports-color@^5.3.0:
     has-flag "^3.0.0"
 
 symlink-dir@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/symlink-dir/-/symlink-dir-1.1.2.tgz#eb367da33401e9c6e95b1ca87efd921cef369852"
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/symlink-dir/-/symlink-dir-1.1.3.tgz#b09af9599af5310c2fb77adc0c1613dee382ce4e"
   dependencies:
     "@types/mz" "0.0.32"
-    "@types/node" "^9.3.0"
+    "@types/node" "^10.0.8"
     graceful-fs "^4.1.11"
     is-windows "^1.0.0"
     mkdirp-promise "^5.0.0"
