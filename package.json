@@ -7,8 +7,8 @@
   "scripts": {
     "start:native": "project native start",
     "start:web": "project web start",
-    "dev:init":
-      "yarn link @cajacko/project-templates && yarn link @cajacko/lib",
+    "dev:init": "yarn link @cajacko/project-templates && yarn link @cajacko/lib",
+    "dev:unset": "yarn unlink @cajacko/project-templates && yarn unlink @cajacko/lib",
     "run:ios": "project native run --ios",
     "run:android": "project native run --android",
     "init": "project init",

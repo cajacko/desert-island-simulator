@@ -3,14 +3,14 @@
 
 
 "@cajacko/lib@*":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@cajacko/lib/-/lib-1.0.7.tgz#f6d32efb7e1d8872d54dc45ce8d14d241645a6f3"
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@cajacko/lib/-/lib-1.0.8.tgz#5b43424da00a09231e2e1bbec2d37e14be7dfb4d"
   dependencies:
     styled-components "^3.2.6"
 
 "@cajacko/project-templates@*":
-  version "0.2.20"
-  resolved "https://registry.yarnpkg.com/@cajacko/project-templates/-/project-templates-0.2.20.tgz#947043945cea8111e838b5d32bdcfaab84eaa5d7"
+  version "0.2.21"
+  resolved "https://registry.yarnpkg.com/@cajacko/project-templates/-/project-templates-0.2.21.tgz#300b1c90ce260bc94bfdac5d62fb72d679017e20"
   dependencies:
     commander "^2.15.1"
     dotenv "^5.0.1"
