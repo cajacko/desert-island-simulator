@@ -7,10 +7,8 @@
   "scripts": {
     "start:native": "project native start",
     "start:web": "project web start",
-    "dev:link":
-      "yarn link @cajacko/project-templates && yarn link @cajacko/lib",
-    "dev:unlink":
-      "yarn unlink @cajacko/project-templates && yarn unlink @cajacko/lib",
+    "dev:link": "project link",
+    "dev:unlink": "project unlink",
     "run:ios": "project native run --ios",
     "run:android": "project native run --android",
     "init": "project init",
@@ -20,11 +18,13 @@
     "deploy": "yarn deploy:web && yarn deploy:native",
     "deploy:web": "project web deploy",
     "deploy:native": "project native deploy",
-    "get-firebase-token": "project firebase get-token"
+    "get-firebase-token": "project firebase get-token",
+    "postinstall": "project postinstall"
   },
-  "dependencies": {
-    "@cajacko/lib": "*",
-    "@cajacko/project-templates": "*",
-    "react": "16.3.0-alpha.1"
+  "peerDependencies": {
+    "@cajacko/lib": "*"
+  },
+  "devDependencies": {
+    "@cajacko/project-templates": "*"
   }
 }
